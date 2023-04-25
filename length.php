@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
     <title>Convert Length</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+  <body class="dark-mode">
 
     <div id="main-content">
 
@@ -71,5 +71,13 @@ if(isset($_POST['submit'])) {
       <p id="return-link" ><a href="index.php">Return to menu</a></p>
       
     </div>
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">Toggle dark mode</button>
+
+    <script>
+    function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+    </script>
   </body>
 </html>
