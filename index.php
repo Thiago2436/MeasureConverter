@@ -5,7 +5,7 @@
 	<title>Measurement Conversion</title>
 	<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body class="dark-mode">
 	<div id="main-content">
       <h1>Conversor De Medidas </h1>
       <ul id="measurement-types">
@@ -17,6 +17,15 @@
          <li><a href="temperature.php">Temperatura</a></li>
       </ul>
 	</div>
+    <button id="dark-mode-toggle" onclick="toggleDarkMode()">Toggle dark mode</button>
+
+    <script>
+    function toggleDarkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+    </script>
+
     <p> Thiago Martins e Martins</p>
     <a href="https://github.com/Thiago2436"> GitHub.
 </body>

@@ -1,3 +1,27 @@
+/* dark mode */
+.dark-mode {
+	background: #111;
+	color: #fff;
+}
+
+.dark-mode #main-content {
+	background-color: #333;
+	border: 2px solid #aaa;
+}
+
+.dark-mode h1 {
+	color: #fff;
+}
+
+.dark-mode #measurement-types li a {
+	background: #222;
+	color: #fff;
+}
+
+.dark-mode #measurement-types li a:hover {
+	background: #555;
+}
+
 /*general*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
