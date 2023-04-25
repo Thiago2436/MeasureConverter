@@ -28,9 +28,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Exibe uma mensagem de sucesso
     echo "Mensagem enviada com sucesso!";
-  } else {
+    } else {
     echo "E-mail inválido!";
   }
 }
 
 ?>
+<html>
+<a href="index.php"> Voltar </a>
+</html>
